@@ -1,11 +1,10 @@
 'use strict';
 
-let intrudaction = prompt("Как вас зовут?", "Иван Сидоров")
+let intrudaction = prompt("Как вас зовут?", "Иван Сидоров");
 
 function sayHello(yourname){
-    alert(`Привет, ${yourname}`)
+    alert(`Привет, ${yourname}`);
 
 }
 
-sayHello(intrudaction)
-
+sayHello(intrudaction);
